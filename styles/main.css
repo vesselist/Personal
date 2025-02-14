@@ -1,0 +1,92 @@
+/* styles/main.css */
+
+:root {
+    --primary-color: #223240;
+    --secondary-color: #0a2b42;
+    --tertiary-color: #252f35;
+    --quaternary-color: #15202d;
+    --quinary-color: #3f4756;
+    --senary-color: #324357;
+    --septenary-color: #655b54;
+    --octonary-color: #877e74;
+    --nonary-color: #e1d3bf;
+    --primary-menu-bg: linear-gradient(to bottom, var(--primary-color) 40%, #223240db, #22324000);
+    --primary-heading-bg: radial-gradient(at center, var(--primary-color) 50%, #223240db 60%, #22324000 70%);
+    --primary-text-bg:#324357db;
+    --secondary-button-bg: radial-gradient(at center, var(--septenary-color) 50%, #655b54db 60%, #655b5400 70%);
+  }
+
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: fixed url('../images/background.png') no-repeat center center/cover;
+    color: var(--nonary-color);
+  }
+  
+  header {
+    padding: 15px;
+    text-align: center;
+    color: var(--nonary-color);
+    background: var(--primary-menu-bg);
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: var(--nonary-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background: var(--primary-heading-bg);
+    display: inline-block;
+  }
+  
+  .hero {
+    display: inline-block;
+    text-align: center;
+    margin: 50px 10px 50px 10px;
+    padding: 50px 5px;
+    color: var(--nonary-color);
+    background:var(--primary-text-bg);
+  }
+  
+  .links .button {
+    display: inline-block;
+    margin: 100px 5px 10px 5px;
+    padding: 10px 20px 10px 20px;
+    color: var(--secondary-color);
+    background: var(--secondary-button-bg);
+    text-decoration: none;
+    border-style: none;
+  }
+
+  .links .button:hover {
+    color: var(--nonary-color);
+    transition: color 0.3s ease;
+  }
+  
+footer {
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    background: rgba(0, 0, 0, 0.45);
+    position: fixed;
+    bottom: 0;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
