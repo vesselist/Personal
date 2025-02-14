@@ -75,6 +75,12 @@ h1 {
 .hero a {
     text-decoration: none;
   }
+
+.hero a2 {
+    text-decoration: none;
+    font-style: italic;
+    color: var(--octonary-color);
+  }
   
   /*link buttons*/
 .links .button {
