@@ -71,12 +71,8 @@ h1 {
     background:var(--primary-text-bg);
     border-radius: 10px 10px 0 0;
   }
-  
-.hero a {
-    text-decoration: none;
-  }
 
-.hero a2 {
+.hero a {
     text-decoration: none;
     font-style: italic;
     color: var(--octonary-color);
@@ -93,11 +89,11 @@ h1 {
     border-style: none;
   }
 
-.links .button a {
+.links .button {
     color: var(--secondary-color);
   }
 
-.links .button a:hover {
+.links .button:hover {
     color: var(--nonary-color);
     transition: color 0.3s ease;
   }
