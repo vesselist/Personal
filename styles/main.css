@@ -106,7 +106,45 @@ footer {
 }
 
 /*text*/
-    
+@font-face {
+  font-family: "Mulish";
+  src: url(styles/fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url(styles/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Shadows Into Light";
+  src: url(styles/fonts/ShadowsIntoLight/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(styles/fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url(styles/fonts/Silkscreen/Silkscreen.ttf);
+}
+
+@font-face {
+  font-family: "Pinyon Script";
+  src: url(styles/fonts/PinyonScript/PinyonScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Doto";
+  src: url(styles/fonts/Doto/Doto-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Cutive Mono";
+  src: url(styles/fonts/CutiveMono/CutiveMono-Regular.ttf);
+}
 
 .mulish-light {
   font-family: "Mulish", serif;
