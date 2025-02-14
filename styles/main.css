@@ -1,6 +1,7 @@
 /* styles/main.css */
 
 :root {
+  /*colors*/
     --primary-color: #223240;
     --secondary-color: #0a2b42;
     --tertiary-color: #252f35;
@@ -10,14 +11,18 @@
     --septenary-color: #655b54;
     --octonary-color: #877e74;
     --nonary-color: #e1d3bf;
+
+  /*backgrounds*/
     --primary-menu-bg: linear-gradient(to bottom, var(--primary-color) 40%, #223240db, #22324000);
     --primary-heading-bg: radial-gradient(at center, var(--primary-color) 50%, #223240db 60%, #22324000 70%);
-    --primary-text-bg:#324357db;
+    --primary-text-bg: #324357db;
     --secondary-button-bg: radial-gradient(at center, var(--septenary-color) 50%, #655b54db 60%, #655b5400 70%);
+
+
   }
 
-  
-  body {
+/*utility*/
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -25,37 +30,39 @@
     color: var(--nonary-color);
   }
   
-  header {
+header {
     padding: 15px;
     text-align: center;
     color: var(--nonary-color);
     background: var(--primary-menu-bg);
   }
   
-  nav ul {
+nav ul {
     list-style: none;
     padding: 0;
   }
   
-  nav ul li {
+nav ul li {
     display: inline;
     margin: 0 15px;
   }
   
-  nav ul li a {
+nav ul li a {
     color: var(--nonary-color);
     text-decoration: none;
     font-weight: bold;
   }
 
-  h1 {
+h1 {
     text-align: center;
     padding: 20px 20px 20px 20px;
     background: var(--primary-heading-bg);
     display: inline-block;
+    color: var(--nonary-color);
   }
   
-  .hero {
+  /*hero*/
+.hero {
     display: inline-block;
     text-align: center;
     margin: 50px 10px 50px 10px;
@@ -64,7 +71,14 @@
     background:var(--primary-text-bg);
   }
   
-  .links .button {
+.hero a {
+    color: var(--octonary-color);
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  /*link buttons*/
+.links .button {
     display: inline-block;
     margin: 100px 5px 10px 5px;
     padding: 10px 20px 10px 20px;
@@ -74,11 +88,12 @@
     border-style: none;
   }
 
-  .links .button:hover {
+.links .button:hover {
     color: var(--nonary-color);
     transition: color 0.3s ease;
   }
-  
+
+  /*footer*/
 footer {
     text-align: center;
     padding: 5px 10px 5px 10px;
@@ -90,3 +105,89 @@ footer {
     transform: translateX(-50%);
 }
 
+/*text*/
+    
+
+.mulish-light {
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.quicksand-light {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-light> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-regular {
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pinyon-script-regular {
+  font-family: "Pinyon Script", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.doto-light> {
+  font-family: "Doto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.title-font {
+  font-family: "Doto", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.cutive-mono-regular {
+  font-family: "Cutive Mono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*images*/
+
+/*buttons*/
+
+/*notes to self*/
+  /* 
+    Fonts
+      mulish font weight: 200 to 1000 
+      quicksand font weight: 300 to 700
+      shadows into light font weight: 400
+      cinzel font weight: 400 to 900
+      silkscreen font weight: 400 or 700
+      pinyon script font weight: 400
+      doto font weight: 100 to 900
+      cutive mono font weight: 400
+  */
