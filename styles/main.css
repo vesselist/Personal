@@ -73,9 +73,7 @@ h1 {
   }
   
 .hero a {
-    color: var(--octonary-color);
     text-decoration: none;
-    font-style: italic;
   }
   
   /*link buttons*/
@@ -83,7 +81,7 @@ h1 {
     display: inline-block;
     margin: 10px 5px 10px 5px;
     padding: 10px 20px 10px 20px;
-    
+    font-style: none;
     background: var(--secondary-button-bg);
     text-decoration: none;
     border-style: none;
