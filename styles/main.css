@@ -69,6 +69,7 @@ h1 {
     padding: 50px 5px;
     color: var(--nonary-color);
     background:var(--primary-text-bg);
+    border-radius: 10px 10px 0 0;
   }
   
 .hero a {
@@ -80,15 +81,19 @@ h1 {
   /*link buttons*/
 .links .button {
     display: inline-block;
-    margin: 100px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
     padding: 10px 20px 10px 20px;
-    color: var(--secondary-color);
+    
     background: var(--secondary-button-bg);
     text-decoration: none;
     border-style: none;
   }
 
-.links .button:hover {
+  .links .button a {
+    color: var(--secondary-color);
+  }
+
+.links .button a:hover {
     color: var(--nonary-color);
     transition: color 0.3s ease;
   }
@@ -100,7 +105,6 @@ footer {
     background: rgba(0, 0, 0, 0.45);
     position: fixed;
     bottom: 0;
-    width: 40%;
     left: 50%;
     transform: translateX(-50%);
 }
