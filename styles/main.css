@@ -106,7 +106,6 @@ footer {
 }
 
 /*text*/
-@font-face
 @font-face {
   font-family: "Mulish";
   src: url(/styles/fonts/Mulish/Mulish-VariableFont_wght.ttf) format("truetype");
